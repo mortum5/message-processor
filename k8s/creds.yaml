@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: jenkins-creds
+  namespace: jenkins
+data:
+  options: LS1hcmd1bWVudHNSZWFsbS5wYXNzd2QuamVua2lucz1hZG1pbiAtLWFyZ3VtZW50c1JlYWxtLnJvbGVzLmplbmtpbnM9YWRtaW4K
